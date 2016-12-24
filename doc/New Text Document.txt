@@ -1,0 +1,4 @@
+
+
+    Using Cygwin: 
+        > bash jcs_shellscript.sh
