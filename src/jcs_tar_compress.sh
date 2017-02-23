@@ -15,10 +15,10 @@
 CURRENT_DIR_NAME=${PWD##*/}
 
 # compress the file.
-tar -czvf $CURRENT_DIR_NAME.tar.gz ../
+tar -zcvf "$CURRENT_DIR_NAME.tar.gz" "../$CURRENT_DIR_NAME"
 
 # move up one directory
-mv $CURRENT_DIR_NAME.tar.gz ../
+mv "$CURRENT_DIR_NAME.tar.gz" ../
 
 
 while true; do
