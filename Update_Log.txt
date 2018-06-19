@@ -7,6 +7,9 @@ $Notice: See LICENSE.txt for modification and distribution information
 ========================================================================
 
 
+2018-06-19
+* Add timestamp module. (JCSSh_Util)
+
 2017-09-23
 * Add open todo file in emacs. (JCSSh_Util)
 * Add open todo file in vim. (JCSSh_Util)
