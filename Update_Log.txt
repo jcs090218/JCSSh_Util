@@ -7,6 +7,9 @@ $Notice: See LICENSE.txt for modification and distribution information
 ========================================================================
 
 
+2018-10-18
+* Implement jcs_dic script for dictionary util script. (JCSSh_Util)
+
 2018-06-19
 * Add timestamp module. (JCSSh_Util)
 
