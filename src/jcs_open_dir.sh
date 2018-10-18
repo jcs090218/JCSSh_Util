@@ -9,29 +9,11 @@
 #  ========================================================================
 
 
-# DESCRIPTION(jenchieh): open the backup directory.
+# DESCRIPTION(jenchieh): open the two backup directories.
 
-# drive name
-DRIVE_NAME=JCS_ALDES_G_ExternalDrive
 
-# user name
-USER_NAME=jayces
+# Open the first backup directory.
+./jcs_open_bk.sh JCS_ALDES_G_ExternalDrive jayces Linux_Root
 
-# backup root folder
-ROOT_BACKUP_DIR=Linux_Root
-
-# Linux distro type
-read -p "Enter the name of your destro. (Ubuntu, Debain, etc.): " DESTRO
-
-# first setup the backup root
-BACKUP_DIR=/media/$USER_NAME/$DRIVE_NAME/$ROOT_BACKUP_DIR/$DESTRO
-
-# echo out the result.
-echo Opening directory: \"$BACKUP_DIR\"
-
-# get the current directory
-CURRENT_DIR=$PWD
-
-# before calling this make sure you have
-# nautilus installed on your OS.
-nautilus $BACKUP_DIR$CURRENT_DIR
+# Open the second backup directory.
+./jcs_open_bk.sh JCS_ALDES_S_ExternalDrive jayces Linux_Root
