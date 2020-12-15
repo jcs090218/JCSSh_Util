@@ -13,7 +13,7 @@ so you can just run it everywhere(any directory) and it will still
 work.
 
 * Run "setup.sh" for this package in order to setup file the package correctly.
-  
+
 ## Todo List
 
 - [ ] Task killer
