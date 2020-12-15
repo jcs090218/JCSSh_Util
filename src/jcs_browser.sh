@@ -8,7 +8,6 @@
 #                    Copyright (c) 2016 by Shen, Jen-Chieh $
 #  ========================================================================
 
-
 # Open the browser.
 
 sensible-browser

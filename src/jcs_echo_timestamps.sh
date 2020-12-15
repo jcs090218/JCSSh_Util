@@ -8,7 +8,6 @@
 #                   Copyright © 2018 by Shen, Jen-Chieh $
 # ========================================================================
 
-
 echo
 printf "Ver. 1 " && date +"%Y-%m-%d %H:%M:%S"
 printf "Ver. 2 " && date +"%Y/%m/%d %H:%M:%S"

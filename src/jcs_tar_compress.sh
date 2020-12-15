@@ -8,9 +8,7 @@
 #                    Copyright (c) 2016 by Shen, Jen-Chieh $
 #  ========================================================================
 
-
-# DESCRIPTION(jenchieh): Compress the current directory
-# to up one directory.
+# DESCRIPTION: Compress the current directory to up one directory.
 
 CURRENT_DIR_NAME=${PWD##*/}
 
@@ -19,7 +17,6 @@ tar -zcvf "$CURRENT_DIR_NAME.tar.gz" "../$CURRENT_DIR_NAME"
 
 # move up one directory
 mv "$CURRENT_DIR_NAME.tar.gz" ../
-
 
 while true; do
 

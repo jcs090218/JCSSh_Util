@@ -8,7 +8,6 @@
 #                    Copyright (c) 2016 by Shen, Jen-Chieh $
 #  ========================================================================
 
-
 while true; do
 
     read -p "You sure to clear everything in the directory?" yn

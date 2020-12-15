@@ -8,8 +8,7 @@
 #                   Copyright © 2018 by Shen, Jen-Chieh $
 # ========================================================================
 
-
-# DESCRIPTION(jenchieh): open the backup directory.
+# DESCRIPTION: open the backup directory.
 
 # drive name
 DRIVE_NAME=$1
@@ -19,7 +18,6 @@ USER_NAME=$2
 
 # backup root folder
 ROOT_BACKUP_DIR=$3
-
 
 # Linux distro type
 read -p "Enter the name of your destro. (Ubuntu, Debain, etc.): " DESTRO

@@ -8,8 +8,7 @@
 #                   Copyright © 2018 by Shen, Jen-Chieh $
 # ========================================================================
 
-
-# DESCRIPTION(jenchieh): Search for the word translation in the default browser.
+# DESCRIPTION: Search for the word translation in the default browser.
 
 if [ -z "$1" ]
 then

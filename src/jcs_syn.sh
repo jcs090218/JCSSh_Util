@@ -8,9 +8,8 @@
 #                   Copyright © 2019 by Shen, Jen-Chieh $
 # ========================================================================
 
-
-# DESCRIPTION(jenchieh): Open dictionary in the browser by passing the word
-# you want to search for synonyms.
+# DESCRIPTION: Open dictionary in the browser by passing the word you want
+# to search for synonyms.
 
 if [ -z "$1" ]
 then

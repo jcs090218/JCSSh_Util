@@ -8,5 +8,4 @@
 #                    Copyright (c) 2016 by Shen, Jen-Chieh $
 #  ========================================================================
 
-
 # Copy the whole directory to target drive directory.

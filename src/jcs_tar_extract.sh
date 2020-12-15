@@ -8,8 +8,7 @@
 #                    Copyright (c) 2016 by Shen, Jen-Chieh $
 #  ========================================================================
 
-
-# DESCRIPTION(jenchieh): Extract the file to current directory.
+# DESCRIPTION: Extract the file to current directory.
 
 read -p "Please enter the file name: " TARGET_FILE
 
