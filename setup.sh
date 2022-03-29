@@ -26,12 +26,12 @@ find $DIRNAME -name "*.sh" -exec chmod +x {} \;
 echo "adding path to .bashrc file..."
 cat <<EOF >> $BASHRC_FILE
 # jcssh util packages
-JCSSH_UTIL_SRC='/home/jayces/jcs_environment_variables/PATH/JCSSh_Util/src'
+JCSSH_UTIL_SRC='/home/jayces/jcs_env_var/PATH/JCSSh_Util/src'
 export JCSSH_UTIL_SRC
 export PATH=$PATH:$JCSSH_UTIL_SRC
 EOF
 
-echo "JCSSH_UTIL_SRC='/home/jayces/jcs_environment_variables/PATH/JCSSh_Util/src'"
+echo "JCSSH_UTIL_SRC='/home/jayces/jcs_env_var/PATH/JCSSh_Util/src'"
 echo "export JCSSH_UTIL_SRC"
 echo "export PATH=$PATH:$JCSSH_UTIL_SRC"
 
